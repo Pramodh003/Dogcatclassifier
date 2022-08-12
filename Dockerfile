@@ -1,6 +1,6 @@
 #Dockerfile, image, container
 
-FROM python:3.8-slim-buster
+FROM python:3.6
 ADD . /python-flask
 WORKDIR /python-flask
 RUN pip install -r requirements.txt
